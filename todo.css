@@ -1,0 +1,54 @@
+@import "reset.css";
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.name {
+  text-align: center;
+  color: white;
+  background-color: rgb(77, 137, 111);
+  height: 120px;
+  line-height: 130px;
+  font-family: 'GmarketSansMedium';
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.memo {
+  font-family: 'GmarketSansMedium';
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#toDoForm {
+  margin-top: 10px;
+  text-align: center;
+}
+
+img {
+  margin-top: 10px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+input {
+  border-width: 2px;
+  height: 25px;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#toDoList {
+  line-height: 40px;
+  font-family: 'GmarketSansMedium';
+  text-align: left;
+  margin-left: 500px;
+}
